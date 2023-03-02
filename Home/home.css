@@ -1,0 +1,33 @@
+.body {
+    background-color: #ffff;
+    font-family: Arial;
+}
+
+.icone-home {
+    font-size: 35px;
+    color: #ffffff
+}
+.botaoHome {
+    background-color: #ffffff;
+    font-size: 20px;
+    font-family: Arial;
+}
+
+.h1 {
+    color: #1aff00;
+    margin-left: 20px;
+    font-family: Arial;
+}
+
+.flex-container {
+    display: flex;
+    background-color: #000000;
+}
+
+.flex-container>
+    div {
+        background-color: #ffffff;
+        margin: 10px;
+        padding: 30px;
+        font-size: 25px;
+    }
