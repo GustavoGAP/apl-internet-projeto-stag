@@ -5,14 +5,21 @@
     <link rel="stylesheet" href="calculadora.css">
     <script type="text/javascript" src="calculadora.js"></script>
     <title>Calculadora</title>
-    <div class="icone-home">
-        <button class="botaoHome">
-            <a href="C:\Users\User\Desktop\Curso Alura\Projeto Safra\apl-internet-projeto-stag\Home\home.html">Home</a>
-        </button>
+    <div>
+        <button class="botao-home-class" type="button" onclick="navegaHome()">Home</button>
     </div>
 </head>
 
 <body>
+
+    <header>
+        <h1 class="titulo">Calculadora</h1>
+        <p class="paragrafo">
+            Bem Vindo, Aqui vamos conseguir realizar operações matematicas.
+        </p>
+    </header>
+
+    <br>
     <label class="letras">Valor 1:</label>
     <input type="number" id="numero1">
 
@@ -21,12 +28,13 @@
     <input type="number" id="numero2">
 
     <br><br>
-        <button onclick="add()" class="botoes">Somar</button>
-        <button onclick="subtract()" class="botoes">Subtrair</button>
-        <button onclick="multiply()" class="botoes">Multiplicar</button>
+        <button onclick="somar()" class="botoes">Somar</button>
+        <button onclick="subtrair()" class="botoes">Subtrair</button>
+        <button onclick="multiplicar()" class="botoes">Multiplicar</button>
         <button onclick="divide()" class="botoes">Dividir</button>
     <br><br>
     <label class="letras">Resultado:</label>
     <input type="number" id="total">
+</body>
 
 </html>
