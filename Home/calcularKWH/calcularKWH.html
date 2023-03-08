@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="calcularKWH.css">
-    <script type="text/javascript" src="calcularKWH.js"></script>
+    <script type="text/javascript" src="calcularKWHControler.js"></script>
     <title>CalcularKWH</title>
     <div>
         <button class="botao-home-class" type="button" onclick="navegaHome()">Home</button>
@@ -19,15 +19,18 @@
             Bem Vindo, Aqui vamos calcular seu consumo de Energia.
         </p>
     </header>
-    <label class="letras">Insira a quantidade de Kwh consumidos:</label>
-    <input type="number" id="numero1">
-
-    <br><br>
-    <label class="letras">Insira o valor unitario de cada Kwh:</label>
-    <input type="number" id="numero2">
-
-    <br><br>
-    <button class="botoes" onclick="mostra">Calcular</button>
+    <form class="letras">
+        <label for="quantidade">Quantidade de Kwh consumidos:</label>
+        <input type="number" id="quantidade" name="quantidade"><br>
+        <br>
+        <label for="valorUnitario">Valor unitário do Kwh:</label>
+        <input type="number" id="valorUnitario" name="valorUnitario"><br>
+        <br>
+        <button class="botoes" type="button" onclick="calcularValor()">Calcular</button>
+        <br><br>
+        <label for="valor">Valor a pagar:</label>
+        <input type="text" id="valor" name="valor" readonly><br>
+    </form>
 </body>
 
 </html>

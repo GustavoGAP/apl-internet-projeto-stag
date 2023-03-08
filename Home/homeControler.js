@@ -9,3 +9,7 @@ function navegaCalculadora(){
 function navegaHome(){
     window.location.href = "home.html";
 }
+
+function navegaTabuada(){
+    window.location.href = "Tabuada/tabuada.html";
+}

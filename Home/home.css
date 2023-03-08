@@ -17,7 +17,7 @@
 .flex-container {
     display: flex;
     background-color: #000000;
-    justify-content: space-around;
+    justify-content: center;
     margin: -50px;
 }
 
