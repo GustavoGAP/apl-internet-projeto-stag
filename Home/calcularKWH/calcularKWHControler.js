@@ -1,5 +1,5 @@
 function navegaHome() {
-    window.location.href = "C:/Users/User/Desktop/Curso Alura/Projeto Safra/apl-internet-projeto-stag/Home/home.html";
+    window.location.href = "../home.html";
 }
 
 function calcularValor() {
