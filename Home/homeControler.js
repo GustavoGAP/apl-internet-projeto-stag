@@ -22,3 +22,7 @@ function navegaCalculadoraMDC(){
 function transformarDecimalBinario(){
     window.location.href = "transformarDecimalBinario/transformarDecimalBinario.html";
 }
+
+function numerosCrescentes(){
+    window.location.href = "numerosCrescentes/numerosCrescentes.html";
+}

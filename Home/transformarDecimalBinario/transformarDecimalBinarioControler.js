@@ -1,3 +1,4 @@
+//função de navegar para a home.
 function navegaHome() {
     window.location.href = "../home.html";
 }
