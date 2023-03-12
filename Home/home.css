@@ -1,11 +1,6 @@
-.body {
-    background-color: #ffff;
+body {
+    background-color: #0032fa;
     font-family: Arial;
-}
-
-.titulo{
-    font-size: 25px;
-    color: #000000;
 }
 
 .botao-home-class {
@@ -18,14 +13,15 @@
     display: flex;
     background-color: #000000;
     justify-content: center;
-    margin: -50px;
+    margin-left: -50px;
+    margin-right: -8px;
 }
 
 .botao-class{
     background-color: #ffffff;
     margin: 12px;
     padding: 15px;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .botao-class-menor{
@@ -33,4 +29,33 @@
     margin: 12px;
     padding: 15px;
     font-size: 23px;
+}
+
+.container-text{
+    display: flex;
+    background-color: #000000;
+    justify-content: center;
+    margin: 60px;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #ffffff;
+}
+
+.titulo{
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.titulo-menor{
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.paragrafo{
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 300;
 }
