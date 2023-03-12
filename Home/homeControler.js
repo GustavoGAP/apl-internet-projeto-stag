@@ -13,3 +13,7 @@ function navegaHome(){
 function navegaTabuada(){
     window.location.href = "Tabuada/tabuada.html";
 }
+
+function navegaCalculadoraMDC(){
+    window.location.href = "calcularMDC/calcularMDC.html";
+}
