@@ -1,3 +1,4 @@
+//funções para navegar para as outras telas.
 function navegaCalcularKWH(){
     window.location.href = "calcularKWH/calcularKWH.html";
 }
@@ -11,9 +12,13 @@ function navegaHome(){
 }
 
 function navegaTabuada(){
-    window.location.href = "Tabuada/tabuada.html";
+    window.location.href = "tabuada/tabuada.html";
 }
 
 function navegaCalculadoraMDC(){
     window.location.href = "calcularMDC/calcularMDC.html";
+}
+
+function transformarDecimalBinario(){
+    window.location.href = "transformarDecimalBinario/transformarDecimalBinario.html";
 }
